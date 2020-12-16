@@ -1,7 +1,8 @@
 Source: tar
 Section: utils
 Priority: required
-Maintainer: Bdale Garbee <bdale@gag.com>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Bdale Garbee <bdale@gag.com>
 Uploaders: Carl Worth <cworth@cworth.org>
 Build-Depends: debhelper (>> 10), gettext, autoconf, automake, autopoint, libacl1-dev, libselinux1-dev [linux-any]
 Standards-Version: 4.3.0

@@ -1,3 +1,12 @@
+tar (1.30+dfsg-7ubuntu0.20.04.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: NULL pointer dereference
+    - debian/patches/CVE-2019-9923.patch: Check for NULL return value from
+      find_next_block in src/sparse.c.
+    - CVE-2019-9923
+
+ -- Avital Ostromich <avital.ostromich@canonical.com>  Tue, 15 Dec 2020 20:38:40 -0500
+
 tar (1.30+dfsg-7) unstable; urgency=medium
 
   * remove libattr1-dev build-dep, as we no longer use it, closes: #953902
