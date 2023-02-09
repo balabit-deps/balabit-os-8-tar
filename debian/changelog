@@ -1,3 +1,12 @@
+tar (1.30+dfsg-7ubuntu0.20.04.3) focal-security; urgency=medium
+
+  * SECURITY UPDATE: one-byte out of bounds
+    - debian/patches/CVE-2022-48303.patch: check limit in
+      src/list.c.
+    - CVE-2022-48303
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Thu, 09 Feb 2023 14:17:35 -0300
+
 tar (1.30+dfsg-7ubuntu0.20.04.2) focal-security; urgency=medium
 
   * SECURITY UPDATE: Denial of service (LP: #1912091)
