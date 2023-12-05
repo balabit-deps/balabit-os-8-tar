@@ -1,3 +1,12 @@
+tar (1.30+dfsg-7ubuntu0.20.04.4) focal-security; urgency=medium
+
+  * SECURITY UPDATE: stack overflow via crafted xattr (LP: #2029464)
+    - debian/patches/CVE-2023-39804.patch: allocate xattr keys and values
+      on the heap rather than the stack in src/xheader.c
+    - CVE-2023-39804
+
+ -- Alex Murray <alex.murray@canonical.com>  Tue, 05 Dec 2023 15:46:50 +1030
+
 tar (1.30+dfsg-7ubuntu0.20.04.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: one-byte out of bounds
